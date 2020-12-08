@@ -1,0 +1,126 @@
+{
+	"_meta": {
+		"sources": [{
+				"json": "FerreterRogue",
+				"abbreviation": "FSC",
+				"full": "Ferreter: a smuggling subclass for Rogue",
+				"authors": [
+					"Royaltivity",
+					"Rayden Belmont"
+				],
+				"convertedBy": [
+					"Royaltivity"
+				],
+				"version": "1.0",
+				"url": "https://docs.google.com/document/d/1SajczVgGNUguJxTWemtboa0PFDbZ_xPktFPFzSnZUUs/edit?usp=sharing",
+				"targetSchema": "1.1.0"
+			}],
+		"dateAdded": "07122020",
+		"dateLastModified": "07122020"
+	},
+
+"subclass": [{
+        "name": "Ferreter",
+		"subclassTitle": "Roguish Archetype",
+        "source": "FerreterRogue",
+        "className": "Rogue",
+        "classSource": "PHB",
+        "shortName": "Ferreter",
+        "subclassFeatures": [
+            "Ferreter|Rogue||Ferreter|FerreterRogue|3",
+			"Improbable Pockets|Rogue||Ferreter|FerreterRogue|9",
+			"Unlikely Mule|Rogue||Ferreter|FerreterRogue|13",
+			"Ferreter's Flurry|Rogue||Ferreter|FerreterRogue|17"
+        ]
+    }],
+    "subclassFeature":[
+		{
+        "name": "Ferreter",
+        "source": "FerreterRogue",
+        "className": "Rogue",
+        "classSource": "PHB",
+        "subclassShortName": "Ferreter",
+        "subclassSource": "FerreterRogue",
+        "level": 3,
+        "entries": [
+            "While anyone can attempt to illicitly sneak contraband past Pickaroons, Gobloos, Preventers, or any other name for Customs Officers, few excel at it like a Ferreter. Masters of Sleight of Hand, these rogues are capabled of sneaking small goods past even the best preying eyes of nosy law enforcers. Many Ferreters do so for the common good, bringing medicines into the hands of the poor that need them, but some do so for ill, and just as many simply for the coin.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Concealing Legerdemain|Rogue|PHB|Ferreter|FerreterRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ferreter's Bite|Rogue|PHB|Ferreter|FerreterRogue|3"
+				}
+			]
+		},
+		
+			{
+			"type": "entries",
+			"name": "Concealing Legerdemain",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"A Ferreter has a sixth sense for hiding contraband and stolen goods, through clever use of sleight of hand to hide a small item, even moving it from place to place on your person to avoid detection. Beginning at 3rd level, you may conceal an object using Dexterity (Sleight of Hand) as a bonus action on your turn, even without a container to stow it into. An item must be 2 lbs or lighter, or a weapon with the light property. You may conceal a number of items this way equal to your proficiency modifier."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Ferreter's Bite",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also starting at 3rd level, the swiftness of your hands allow you to capitalize on foes who fail to see through your underhandedness. When you miss an melee attack with a drawn weapon, you may immediately make an additional attack with a weapon concealed using Concealing Legerdemain. Attacks using this feature deal Sneak Attack’s extra damage, even if you don’t meet its requirements. This counts as using Sneak Attack for your turn. If the weapon that made the triggering attack is light, you may use Concealing Legerdemain to conceal it, instead of dropping it."
+			]
+		},
+		{
+			"name": "Improbable Pockets",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Your gift with sleight of hand begins to defy logic as your sense for keeping illicit goods out of sight borders on legendary. At 9th level, when concealing an object with Concealing Legerdemain, you stash the item into an interdimensional space that only you can find. This space can hold a total weight of up to 10 x your Proficiency Modifier in lbs. This weight does not count against your carry limits, and isn’t destroyed if you enter a portable hole, handy haversack, or bag of holding, however those items are still destroyed if you pocket them into the space of Improbable Pockets. A weapon stored within this space cannot be retrieved as part of a weapon attack made with Ferreter’s Bite."
+			]
+		},
+		{
+			"name": "Unlikely Mule",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, your clever use of sleight of hand bleeds into your allies’ spaces, often in flagrant disregard for reality. How did that item get there? It’s probably best not to ask. Using your reaction, items in your Improbable Pockets can be drawn by an ally of your choice that you can see or hear within 60ft of you. Additionally, when using Concealing Legerdemain to conceal a weapon into your Improbable Pockets, it no longer needs to have the light property."
+			]
+		},
+		{
+			"name": "Ferreter's Flurry",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you are extremely capable of defending yourself using the underhanded weapons stowed all over your person. When you make an attack with the attack action, you may make a single additional attack with each weapon concealed on your person by Concealing Legerdemain, in any order you choose. You may use this feature once before needing a short or long rest."
+			]
+		}
+	]
+}
