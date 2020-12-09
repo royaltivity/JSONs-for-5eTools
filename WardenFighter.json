@@ -1,0 +1,483 @@
+{
+   "_meta":{
+      "sources":[
+			{
+				"json":"WardenFighter",
+				"abbreviation":"WRDN",
+				"full":"Warden: A Fighter Subclass for Natural Defenders",
+				"authors":[
+				   "Royaltivity"
+				],
+				"convertedBy":[
+				   "Royaltivity"
+				],
+				"version":"1.1",
+				"url":"https://docs.google.com/document/d/1bNFPY7ttogLKQBUYMG6YuJnNQEMzXCx_9Dm4ICawnxc/edit?usp=sharing",
+				"targetSchema":"1.1.0"
+			}
+		],
+		"dateAdded":1607539707,
+		"dateLastModified":1607539707,
+		"optionalFeatureTypes":{
+			"WRDN:B":"Warden's Bond"
+		}
+   },
+   "subclass":[
+		{
+			"name":"Warden",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"shortName":"Warden",
+			"spellcastingAbility":"wis",
+			"casterProgression":"1/3",
+			"subclassTableGroups":[
+				{
+					"subclasses":[
+						{
+							"name":"Warden",
+							"source":"Warden"
+						}
+					],
+					"colLabels":[
+					  "{@filter Cantrips Known|spells|level=0|subclass=Fighter: Warden}",
+					  "{@filter Spells Known|spells|subclass=Fighter: Warden}"
+					],
+				   "rows":[
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							2,
+							3
+						],
+						[
+							2,
+							4
+						],
+						[	
+							2,
+							4
+						],
+						[	
+							2,
+							4
+						],
+						[
+							2,
+							5
+						],
+						[	
+							2,
+							6
+						],
+						[
+							2,
+							6
+						],
+						[
+							3,
+							7
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							9
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							12
+						],
+						[
+							3,
+							13
+						]
+					]
+				},
+            {
+               "title":"Spell Slots per Spell Level",
+               "subclasses":[
+					{
+						"name":"Warden",
+						"source":"WardenFighter"
+					}
+               ],
+               "colLabels":[
+                  "{@filter 1st|spells|level=1|subclass=Fighter: Warden}",
+                  "{@filter 2nd|spells|level=2|subclass=Fighter: Warden}",
+                  "{@filter 3rd|spells|level=3|subclass=Fighter: Warden}",
+                  "{@filter 4th|spells|level=4|subclass=Fighter: Warden}"
+               ],
+               "rows":[
+					[
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						2,
+						0,
+						0,
+						0
+					],
+					[
+						3,
+						0,
+						0,
+						0
+					],
+					[
+						3,
+						0,
+						0,
+						0
+					],
+					[
+						3,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						2,
+						0,
+						0
+					],
+					[
+						4,
+						2,
+						0,
+						0
+					],
+					[
+						4,
+						2,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						2,
+						0
+					],
+					[
+						4,
+						3,
+						2,
+						0
+					],
+					[
+						4,
+						3,
+						2,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						1
+					],
+					[
+						4,
+						3,
+						3,
+						1
+					]
+				]
+			}
+		],
+			"subclassFeatures":[
+				"Warden|Fighter||Warden|WardenFighter|3",
+				"Swiftness of Wind|Fighter||Warden|WardenFighter|7",
+				"Force of Nature|Fighter||Warden|WardenFighter|10",
+				"Thrill of the Hunt|Fighter||Warden|WardenFighter|15",
+				"Swiftness of Lightning|Fighter||Warden|WardenFighter|18"
+			]
+        }
+    ],
+   "subclassFeature":[
+		{	
+			"name":"Warden",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":3,
+			"entries":[
+				"Throughout the world you can see and feel the bonds that hold society together: the mighty salmon returning to ancestral speaking grounds to usher the next generation, the fox tracking the rabbit into its burrow in pursuit of a meal, a marriage bringing two families together for generations to come, the trust between a hunter and their foxhound, even a soldier and a blade handed down from parent to child. A Warden builds on the strength of that bond, be it with beast or blade, and forges power from that trust.",
+				"Be it the unlikely trust formed between a fledgling Hunter and the wolf they carefully released from a poachers trap, or a young adventurer placing their life in the reliability of a worn, nicked up blade entrusted to them by their ex-adventurer mother, this bond can be built to empower both beyond either may ever have dreamed of.",
+				"These bonds need to be fired by danger of adventure and cooled by the serene wisdom of mother nature in order to become the strength that is the Warden. They understand that these bonds are nature itself, and in selling to strengthen their own, observe and protect them. This reverence not only pushed their body beyond its limits, it grants access to a limited form of magic thought exclusive to druids. Whether a Warden is drawn into the wilderness because of this, or earn this through their dedication, one will never tell.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Spellcasting|Fighter||Warden|WardenFighter|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Warden's Bond|Fighter||Warden|WardenFighter|3"
+				}
+			]
+		},
+		{
+			"name":"Spellcasting",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":3,
+			"header":1,
+			"entries":[
+				"When you reach 3rd level, the spirit of nature bursts forth from within you much like a buried seed erupting from the soil, granting you the ability to cast spells. One truly becomes a Warden only by cultivating a deep sense of endearment and deference for Mother Nature. This often is exercised by worship of a deity, commonly Silvanus (N), Chauntea (NG), and others. Evil Wardens might worship Malar (CE), or Auril (NE), although this is typically rare. Worship, while common, is not where a Warden derives their power, however. A Warden’s spellcasting is derived from within themselves, through careful observation and reverence for the wilderness they call, or have come to call, home.",
+				{
+					"type":"entries",
+					"name":"Cantrips",
+					"entries":[
+						"You learn two cantrips of your choice from the {@filter druid spell list|spells|class=druid}. You learn an additional Druid cantrip of your choice at 10th level."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Spell Slots",
+					"entries":[
+						"The Warden Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell cure wounds} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell cure wounds} using either slot."
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Spellcasting Ability",
+							"entries":[
+								"Wisdom is your spellcasting ability for your Warden spells, since you learn your spells through the study of nature and memorization. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Warden spell you cast and when making an attack roll with one.",
+								{
+									"type":"abilityDc",
+									"name":"Spell",
+									"attributes":[
+										"wis"
+									]
+								},
+								{
+									"type":"abilityAttackMod",
+									"name":"Spell",
+									"attributes":[
+										"wis"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Spells Known of 1st-Level and Higher",
+							"entries":[
+								"You know three 1st-level Warden spells of your choice, two of which you must choose from the spells on the {@filter ranger spell list|spells|class=ranger}, and the third from the {@filter druid spell list|spells|class=druid}.",
+								"The Spells Known column of the Warden Spellcasting table shows when you learn more Ranger spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+								"The spells you learn at 8th, 14th, and 20th level can come the Druid spell list.",
+								"Whenever you gain a level in this class, you can replace one of the Ranger spells you know with another spell of your choice from the Ranger spell list. The new spell must be of a level for which you have spell slots, and it must be a Ranger spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from the Druid spell list."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"Warden's Bond",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":3,
+			"header":1,
+			"entries":[
+				"At 3rd level, you learn to form a magical bond with a trusted companion. This companion may be a weapon, like a reliable longsword passed down through your family, or a beast, such as a wolf, once found in a poacher’s trap, who’s eyes wordlessly spoke to your spirit. Choose a type of bond. Once chosen, this bond may not be changed without the aid of powerful magic, like a Wish spell.",
+				{
+					"type":"options",
+					"count":1,
+					"entries":[
+						{
+							"type":"refOptionalfeature",
+							"optionalfeature":"Weapon Bond|WardenFighter"
+						},
+						{
+							"type":"refOptionalfeature",
+							"optionalfeature":"Beast Bond|WardenFighter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"Swiftness of Wind",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":7,
+			"header":1,
+			"entries":[
+				"Beginning at 7th level, the unyielding forces of the natural world quicken your hand: when you use your action to cast a cantrip, you may spend your bonus action to make a weapon attack."
+			]
+		},
+		{
+			"name":"Force of Nature",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":10,
+			"header":1,
+			"entries":[
+				"At 10th level, your study of nature magic sharpens your perception, letting you capitalize on openings in a foe's defenses others might miss.",
+				"When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+			]
+		},
+		{
+			"name":"Thrill of the Hunt",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":15,
+			"header":1,
+			"entries":[
+				"At 15th level, your natural intuition is honed beyond mortal ken, giving you a predatory edge when chasing prey and keeping you 2 steps ahead of those who have earned your ire.",
+				"You gain the ability to move behind any object, building, or structure as tall, or taller, than you are and move from behind it to another object, building or structure  of the same kind up to twice your movement speed away. You instantly know the location of all other objects of the same kind within range and can appear in a spot of your choice within 5 feet of the destination. You can use this transportation ability when you use your Action Surge. You can teleport before or after the additional action.",
+				"{@i Special} If you have the Beast Bond feature, and your companion is adjacent to you when you begin your teleport, it may take with you. It reappears in an available 5ft square adjacent to you."
+			]
+		},
+		{
+			"name":"Swiftness of Lightning",
+			"source":"WardenFighter",
+			"className":"Fighter",
+			"classSource":"PHB",
+			"subclassShortName":"Warden",
+			"subclassSource":"WardenFighter",
+			"level":18,
+			"header":1,
+			"entries":[
+				"Starting at 18th level, whenever you channel the primal energy of nature to cast a spell, your blood runs as quicksilver, granting you alacrity: When you use your action to cast any spell, you may spend your bonus action to make a weapon attack and add a bonus to your damage equal to the level of the spell slot used in your action."
+			]
+		}
+    ],
+	"optionalfeature":[
+		{
+			"name":"Weapon Bond",
+			"source":"WardenFighter",
+			"featureType":"WRDN:B",
+			"entries":[
+			   "You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
+			   "Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand. Melee Weapons bonded in this way can be used to make Melee Attacks in place of Ranged Attacks required by some spells. Limitations of spells still apply (i.e. {@spell lightning arrow} expires after 12 ranged attacks, hit or miss, would only allow 12 melee attacks, hit or miss). If a spell effect would include yourself in it's area of effect, you may choose to exclude yourself. Bonded Weapons are not consumed by spells effects, and act as your Spell Casting Focus used in place of material components.",
+			   "You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two. A weapon that requires two hands does not interfere with somatic component requirements and functions as a religious symbol would for material components.",
+			   "At level 7, your arms become an extension of yourself: you intrinsically know the location of your weapon(s) if not on your person. This information is not exact (a goblin lair; the bandit hideout), but you know the precise direction in which it lies (15 degrees West of North), and the precise distance away it is (25 feet away, 13 miles away). Additionally, your bonded weapon(s) are considered magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.",
+			   "Beginning at level 11, you can focus your innate natural magic into your bond. As an action requiring concentration, you can force your senses into your weapon and see the world from it's perspective. You can see and hear as normal up to a range of 60 feet. If you have bonded multiple weapons, you must select one to be the point of origin for your senses. You can sustain this effect for up to one hour, during which your body is unattended in the position you left it. Your body is considered helpless during this time. You may end this effect and return to you early at will. You cannot use this ability again until you have finished a short or long rest. In addition, it is now a free action to summon a bonded weapon, although you may still only do so once per turn.",
+			   "At level 15, your bond empowers your weapon beyond it's common origin: should your bonded weapon ever be damaged or destroyed, you may spend a short rest meditating, focusing on its shape and weight, the familiarity of it in your hands, to harness the magic of your bond to reform your weapon, restoring it to an undamaged state."
+			]
+		},
+		{
+			"name":"Beast Bond",
+			"source":"WardenFighter",
+			"featureType":"WRDN:B",
+			"entries":[
+			   "You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower (the hawk, mastiff, and panther as examples).",
+			   "This creature shares, including level and proficiency.  Your companion adds its proficiency bonus to its AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. It gains hit dice equal to your level, or HP equal to  four times your Fighter level, whichever is higher. Like any creature, the beast can spend Hit Dice during a short rest.",
+			   "Your companion obeys your commands as best as it can. It takes its turn on your initiative, though it doesn't attack unless you command it to. On your turn, you can command the beast where to move (no action required by you). If not given a command, your companion will always take the {@action dodge} action.",
+			   "You can use your Bonus Action to verbally command it to take the {@action attack}, {@action dash}, {@action disengage}, or {@action help} action. Whenever you would make more than one melee attack in a round, you may instead choose to have your companion attack in place of one of your own attacks. You may choose to do this no more than the maximum number of times your companion can attack each round.",
+			   "At level 7, you and your companion grow as intertwined spirits of nature. It moves as you move, as your bond grants both of you a deeper understanding of each other. If you and your companion are traveling together and make {@skill acrobatics}, {@skill athletics}, or {@skill stealth} skill checks, you make these checks at advantage. These rolls account for both you and your companion, if one fails, so does the other.  Also at 7th level, your companions natural magic enhances its attacks. Treat all its attacks as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.",
+			   "Starting at 11th level, your travels and trails by combat have deepened your bond further. As an action, you can share the senses of your companion.",
+			   "Your senses quiet and dim as you begin to see through your companions eyes. Everything it hears, sees, and smells, even tastes and touches, you feel. You can command your companion through this link, and can concentrate to maintain it for up to one hour. Your body is effectively left unattended during this time, and while left in whatever position you begin this action in, you are considered helpless. You can end this effect at any time, and cannot use this ability again until you finish a short or long rest.  Also at this level, your companion can make two attacks when you command it to use the Attack action, or it can take the Multi-attack action if it has that action. In addition, this link acts passively between you two, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.",
+			   "Beginning at 15th level, the bond between beast and master entwines your natural spirits, blurring the divide between you and your companion.",
+			   "Whenever you are affected by a spell or magical effect from someone other than yourself that restores HP, you may split this between you and your companion, as long as it is within 30 feet. In addition, whenever you cast a spell, you may do so from your companion, using it's space or its body as the spell's point of origin, as if you were in its place.",
+			   "If your companion dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one."
+			]
+		}
+	]
+}
