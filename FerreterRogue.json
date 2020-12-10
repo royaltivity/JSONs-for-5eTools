@@ -1,6 +1,7 @@
 {
 	"_meta": {
-		"sources": [{
+		"sources": [
+			{
 				"json": "FerreterRogue",
 				"abbreviation": "FSC",
 				"full": "Ferreter: a smuggling subclass for Rogue",
@@ -11,39 +12,41 @@
 				"convertedBy": [
 					"Royaltivity"
 				],
-				"version": "1.0",
-				"url": "https://github.com/royaltivity/JSONs-for-5eTools/blob/main/FerreterRogue.json",
+				"version": "1.0.1",
+				"url": "https://docs.google.com/document/d/1SajczVgGNUguJxTWemtboa0PFDbZ_xPktFPFzSnZUUs/edit?usp=sharing",
 				"targetSchema": "1.1.0"
-			}],
+			}
+		],
 		"dateAdded": "07122020",
 		"dateLastModified": "07122020"
 	},
-
-"subclass": [{
-        "name": "Ferreter",
-		"subclassTitle": "Roguish Archetype",
-        "source": "FerreterRogue",
-        "className": "Rogue",
-        "classSource": "PHB",
-        "shortName": "Ferreter",
-        "subclassFeatures": [
-            "Ferreter|Rogue||Ferreter|FerreterRogue|3",
-			"Improbable Pockets|Rogue||Ferreter|FerreterRogue|9",
-			"Unlikely Mule|Rogue||Ferreter|FerreterRogue|13",
-			"Ferreter's Flurry|Rogue||Ferreter|FerreterRogue|17"
-        ]
-    }],
+	"subclass": [
+		{
+			"name": "Ferreter",
+			"subclassTitle": "Roguish Archetype",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Ferreter",
+			"subclassFeatures": [
+				"Ferreter|Rogue||Ferreter|FerreterRogue|3",
+				"Improbable Pockets|Rogue||Ferreter|FerreterRogue|9",
+				"Unlikely Mule|Rogue||Ferreter|FerreterRogue|13",
+				"Ferreter's Flurry|Rogue||Ferreter|FerreterRogue|17"
+			]
+		}
+	],	
     "subclassFeature":[
 		{
-        "name": "Ferreter",
-        "source": "FerreterRogue",
-        "className": "Rogue",
-        "classSource": "PHB",
-        "subclassShortName": "Ferreter",
-        "subclassSource": "FerreterRogue",
-        "level": 3,
-        "entries": [
-            "While anyone can attempt to illicitly sneak contraband past Pickaroons, Gobloos, Preventers, or any other name for Customs Officers, few excel at it like a Ferreter. Masters of Sleight of Hand, these rogues are capabled of sneaking small goods past even the best preying eyes of nosy law enforcers. Many Ferreters do so for the common good, bringing medicines into the hands of the poor that need them, but some do so for ill, and just as many simply for the coin.",
+			"name": "Ferreter",
+			"source": "FerreterRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ferreter",
+			"subclassSource": "FerreterRogue",
+			"level": 3,
+			"entries": [
+				"While anyone can attempt to illicitly sneak contraband past Pickaroons, Gobloos, Preventers, or any other name for Customs Officers, few excel at it like a Ferreter. Masters of Sleight of Hand, these rogues are capabled of sneaking small goods past even the best preying eyes of nosy law enforcers. Many Ferreters do so for the common good, bringing medicines into the hands of the poor that need them, but some do so for ill, and just as many simply for the coin.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Concealing Legerdemain|Rogue|PHB|Ferreter|FerreterRogue|3"
@@ -53,9 +56,8 @@
 					"subclassFeature": "Ferreter's Bite|Rogue|PHB|Ferreter|FerreterRogue|3"
 				}
 			]
-		},
-		
-			{
+		},		
+		{
 			"type": "entries",
 			"name": "Concealing Legerdemain",
 			"source": "FerreterRogue",
