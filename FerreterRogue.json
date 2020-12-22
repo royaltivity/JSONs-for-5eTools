@@ -12,13 +12,13 @@
 				"convertedBy": [
 					"Royaltivity"
 				],
-				"version": "1.0.1",
+				"version": "1.1",
 				"url": "https://docs.google.com/document/d/1SajczVgGNUguJxTWemtboa0PFDbZ_xPktFPFzSnZUUs/edit?usp=sharing",
 				"targetSchema": "1.1.0"
 			}
 		],
-		"dateAdded": "07122020",
-		"dateLastModified": "07122020"
+		"dateAdded": "1607339700",
+		"dateLastModified": "1608668852"
 	},
 	"subclass": [
 		{
@@ -82,7 +82,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also starting at 3rd level, the swiftness of your hands allow you to capitalize on foes who fail to see through your underhandedness. When you miss an melee attack with a drawn weapon, you may immediately make an additional attack with a weapon concealed using Concealing Legerdemain. Attacks using this feature deal Sneak Attack’s extra damage, even if you don’t meet its requirements. This counts as using Sneak Attack for your turn. If the weapon that made the triggering attack is light, you may use Concealing Legerdemain to conceal it, instead of dropping it."
+				"Also starting at 3rd level, the swiftness of your hands allow you to capitalize on foes who fail to see through your underhandedness. When you miss an melee attack with a drawn weapon, you may immediately make an additional attack with a weapon concealed using Concealing Legerdemain. Attacks using this feature deal Sneak Attack’s extra damage, even if you don’t meet its requirements. This counts as using Sneak Attack for your turn. If the weapon that made the triggering attack is light, you may use Concealing Legerdemain to conceal it, instead of dropping it, as part of this attack. You must have a free hand to draw your concealed weapon."
 			]
 		},
 		{
